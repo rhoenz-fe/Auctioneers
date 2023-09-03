@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative; 
+}
+
+nav {
+  background-color: #EBEBEB;
+  padding: 10px;
+  position: relative;
+}
+
+.home-page {
+  background-color: #3F000F;
+  min-height: 100vh;
+}
+
+.featured-item-section {
+  background-color: #3F000F;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.featured-item-heading {
+  font-size: 125px;
+  font-family: Impact, sans-serif;
+  font-weight: bold;
+  margin-top: -250px;
+  margin-bottom: 5px;
+  text-shadow: 10px 10px 10px black;
+}
+
+.item-box {
+  background-color: #8F8D8D;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.item-box .item-name {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #FFA500;
+  text-shadow: 3px 3px 3px black;
+}
+
+.item-box .item-component {
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.category-text {
+  color: #000000;
+  font-weight: bold;
+}
+
+.description-text {
+  color: #000000; 
+  font-weight: bold;
+}
+
+.starting-bid-text {
+  color: #000000;
+  font-weight: bold;
+}
+
+.participants-text {
+  color: #000000;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+}
+
+.left-links {
+  display: flex;
+  align-items: center;
+}
+
+.right-links {
+  display: flex;
+  align-items: center;
+}
+
+.link-item {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: large;
+  color: #000000;
+  font-weight: bold;
+}
+
+.login-logout {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.login-logout span {
+  margin-right: 10px;
+}
+
+.login-logout button {
+  margin-left: 10px;
+}
+
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ReactModal__Content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: fit-content; 
+  height: fit-content; 
+  position: relative;
+  max-width: 80%; 
+  max-height: 80%; 
+  margin: 0 auto; 
+}
+
+.ReactModal__Content input {
+  margin-bottom: 10px;
+}
+
+.listings-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 0px;
+  margin-left: -10px;
+  border-top: 20px solid #3F000F; 
+  padding-top: 0px; 
+}
+
+.listing-item {
+  width: calc(33.33% - 20px);
+  margin: 0 10px 20px;
+}
+
+.listing-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 3px 3px 3px black;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.listing-category {
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.listing-description {
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.listing-item-box {
+  background-color: #8F8D8D;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.lr-page {
+  background-color: #3F000F;
+  min-height: 100vh;
+  margin-top: -20px;
+}
+
+.lr-outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #3F000F;
+}
+
+.lr-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding-left: 200px;
+  padding-right: 200px;
+  background-image: url('https://imgix.cosmicjs.com/ed60b990-cb42-11e9-a833-4fe99c887177-selling_a_house_at_auction_vs_for_sale_by_owner_vs_a_traditional_agent-ogid-124804.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lr-heading {
+  font-size: 70px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-top: 50px;
+  text-shadow: 10px 10px 10px black;
+}
+
+.lr-box {
+  background-color: #9d7878;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  width: 50%;
+  max-width: 200px; 
+  margin: 20px auto; 
+}
+
+.lr-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.form-group {
+  margin: 10px 10px;
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #000000;
+  font-size: 15px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+#lrbutton {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #3F000F;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

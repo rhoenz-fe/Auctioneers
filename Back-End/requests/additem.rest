@@ -1,0 +1,13 @@
+POST http://localhost:3003/api/items
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lIiwiaWQiOiI2NGJjOTYxNzlkMWZhNmNmYWM3YTc1NTkiLCJpYXQiOjE2OTA4NDM2NjUsImV4cCI6MTY5MDg0NzI2NX0.ebx9tOAVgZp-k8QSEUFjNza_JdRk6w3Lg5js9j8eXy4
+
+{
+  "itemName": "GameCube",
+  "category": "Electronics",
+  "description": "Cool item!",
+  "startingBid": 100,
+  "startTime": "10:00 AM",
+  "startDate": "2023-07-23",
+  "endDate": "2023-07-25"
+}
